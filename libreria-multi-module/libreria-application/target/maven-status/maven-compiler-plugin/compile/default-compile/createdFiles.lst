@@ -1,0 +1,8 @@
+com\user\project\customer\libreria\app\service\LibroService.class
+com\user\project\customer\libreria\app\repository\ILibroRepository.class
+com\user\project\customer\libreria\app\service\ILibroService.class
+com\user\project\cutomer\libreria\app\converter\Converter.class
+com\user\project\customer\libreria\app\etcontroller\LibriEtController.class
+com\user\project\customer\libreria\app\restcontroller\LibriRestController.class
+com\user\project\customer\libreria\app\LibreriaSpringApplication.class
+com\user\project\customer\libreria\app\ServletInitializer.class
