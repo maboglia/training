@@ -146,6 +146,124 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:9000/libreria/rest/libri",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXJzb24iLCJpYXQiOjE2MTU2NDU0MTYsImV4cCI6MTYxNTczMTgxNn0.N2G_Ud43E3dJ7Lxnole9KMNY1NqLXdaQ8hrHyqgH7_IksnW7FzaMP3q7ChjaPPoTQufspQmMdlsyB3ljvcs9zg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titolo\": \"Newtitolo4\",\r\n    \"prezzo\": 10.0,\r\n    \"p_iva\": 3.0,\r\n    \"pagine\": 300,\r\n    \"editore_id\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9003/person/client/libri",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"person",
+						"client",
+						"libri"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/libreria/rest/librodto/4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXJzb24iLCJpYXQiOjE2MTU2NDU0MTYsImV4cCI6MTYxNTczMTgxNn0.N2G_Ud43E3dJ7Lxnole9KMNY1NqLXdaQ8hrHyqgH7_IksnW7FzaMP3q7ChjaPPoTQufspQmMdlsyB3ljvcs9zg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":5,\r\n    \"titolo\": \"NuovoLibroTitolo\",\r\n    \"prezzo\": 10.0,\r\n    \"p_iva\": 3.0,\r\n    \"pagine\": 300,\r\n    \"editore_id\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9003/person/client/librodto/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"person",
+						"client",
+						"librodto",
+						"4"
+					]
+				},
+				"description": "e"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/libreria/rest/librodto/4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXJzb24iLCJpYXQiOjE2MTU2NDU0MTYsImV4cCI6MTYxNTczMTgxNn0.N2G_Ud43E3dJ7Lxnole9KMNY1NqLXdaQ8hrHyqgH7_IksnW7FzaMP3q7ChjaPPoTQufspQmMdlsyB3ljvcs9zg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":5,\r\n    \"titolo\": \"NuovoLibroTitolo\",\r\n    \"prezzo\": 10.0,\r\n    \"p_iva\": 3.0,\r\n    \"pagine\": 300,\r\n    \"editore_id\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9003/person/client/librodto/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"person",
+						"client",
+						"librodto",
+						"4"
+					]
+				},
+				"description": "e"
+			},
+			"response": []
 		}
 	]
 }
